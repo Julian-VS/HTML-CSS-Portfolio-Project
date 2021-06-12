@@ -1,8 +1,54 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+header
+{
+background-color: lightcoral;
+padding: 10px;
+
+}
+
+.name
+{  
+    float:left;
+    text-align: left;
+    font-size: 2em;
+}
+
+.nav
+{
+text-align: end;
+}
+
+.Desc
+{
+text-align: center;
+
+}
+
+.container
+{
+    background-color: lightgray;
+    opacity:80%;
+    display:flex;
+    
+    margin:auto;
+    
+}
+.container img
+{
+    max-width: 400px;
+}
+
+.Project1, .Project2, .Project3
+{
+    background-color: white;
+    margin:15px;
+    border-radius: 6px;
+    padding:10px;
+}
+
+footer
+{
+    background-color: lightblue;
+    font-size: 15px;
+    padding:25px;
+    
+}
